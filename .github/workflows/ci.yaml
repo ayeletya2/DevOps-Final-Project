@@ -19,3 +19,8 @@ jobs:
         with:
           username: ${{ secrets.docker_user }}
           password: ${{ secrets.docker_pass }}
+      - name: Build and push Docker images
+        uses: docker/build-push-action@v6.7.0
+        with:
+          push: true
+          tags: ayeletya2/final-python-app
