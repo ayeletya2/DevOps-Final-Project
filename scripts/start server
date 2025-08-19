@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker run -itd --name devops-project -d -p 5000:5000 ayeletya2/final-python-app:latest
+sudo docker run -itd --name devops-project-container -d -p 5000:5000 ayeletya2/final-python-app:latest
