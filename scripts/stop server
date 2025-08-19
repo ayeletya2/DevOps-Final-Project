@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo docker stop devops-project
-sudo docker rm devops-project
+sudo docker stop devops-project-container
+sudo docker rm devops-project-container
